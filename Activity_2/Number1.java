@@ -12,7 +12,7 @@ public class Number1 {
         // Convert dollar to peso (1 dollar = 50.75 pesos)
         double pesos = dollars * 50.75;
         
-        System.out.printf("$%.2f is equivalent to %.2f pesos\n", dollars, pesos);
+        System.out.printf("$%.2f is equivalent to ₱%.2f\n", dollars, pesos);
         
         scanner.close();
     }
