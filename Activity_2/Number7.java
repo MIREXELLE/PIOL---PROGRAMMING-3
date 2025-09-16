@@ -15,5 +15,6 @@ public class Number7 {
         System.out.println("Distance: " + distance + " miles");
         System.out.println("Speed: " + speed + " mph");
         System.out.println("Time required: " + hours + " hours and " + minutes + " minutes");
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
     }
 }

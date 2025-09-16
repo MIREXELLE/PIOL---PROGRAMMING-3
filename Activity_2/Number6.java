@@ -24,7 +24,7 @@ public class Number6 {
         System.out.println("\nAfter swapping:");
         System.out.println("First number: " + num1);
         System.out.println("Second number: " + num2);
-        
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
         scanner.close();
     }
 }

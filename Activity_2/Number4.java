@@ -17,7 +17,7 @@ public class Number4 {
         
         System.out.println("Sum: " + sum);
         System.out.println("Product: " + product);
-        
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
         scanner.close();
     }
 }

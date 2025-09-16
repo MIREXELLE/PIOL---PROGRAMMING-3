@@ -15,12 +15,14 @@ public class Number10 {
         
         // Calculate net interest
         double netInterest = interest - withholdingTax;
-        
+
+        // using printf
         System.out.println("Principal amount: ₱" + principal);
         System.out.println("Interest rate: " + (ratePerYear * 100) + "%");
         System.out.println("Term: " + time + " days");
         System.out.printf("Gross interest: ₱%.2f\n", interest);
         System.out.printf("Withholding tax (10%%): ₱%.2f\n", withholdingTax);
         System.out.printf("Net interest: ₱%.2f\n", netInterest);
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
     }
 }

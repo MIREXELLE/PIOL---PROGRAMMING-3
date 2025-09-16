@@ -19,6 +19,7 @@ public class Number8 {
         System.out.println("Rectangle dimensions: " + length + " x " + width);
         System.out.println("Area: " + area);
         System.out.println("Perimeter: " + perimeter);
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
         
         scanner.close();
     }

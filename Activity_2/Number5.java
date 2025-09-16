@@ -14,5 +14,6 @@ public class Number5 {
         System.out.println("Midterm: " + midterm);
         System.out.println("Final: " + finals);
         System.out.printf("Average grade: %.2f\n", average);
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
     }
 }

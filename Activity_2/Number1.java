@@ -12,8 +12,8 @@ public class Number1 {
         // Convert dollar to peso (1 dollar = 50.75 pesos)
         double pesos = dollars * 50.75;
         
-        System.out.printf("$" + dollars + " is equivalent to ₱" + pesos + "\n");
-        
+        System.out.print("$" + dollars + " is equivalent to ₱" + pesos + "\n");
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
         scanner.close();
     }
 }

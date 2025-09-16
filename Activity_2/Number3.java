@@ -12,5 +12,6 @@ public class Number3 {
         System.out.println("Hours worked: " + hoursWorked);
         System.out.println("Hourly rate: ₱" + hourlyRate);
         System.out.printf("Gross pay: ₱%.2f\n", grossPay);
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
     }
 }

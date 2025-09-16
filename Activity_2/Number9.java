@@ -13,6 +13,7 @@ public class Number9 {
         double inches = feet * 12;
         
         System.out.printf("%.2f feet = %.2f inches\n", feet, inches);
+        System.out.println("\nProgrammer's name: Piol, Mirexelle Vincent C.");
         
         scanner.close();
     }
