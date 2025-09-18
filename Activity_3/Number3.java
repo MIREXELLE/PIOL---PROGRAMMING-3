@@ -12,9 +12,9 @@ public class Number3 {
         System.out.println("You entered: " + num1 + " and " +  num2);
 
         System.out.print("Enter 2 Numbers: ");
-        float dec1, dec2;
-        dec1 = input.nextFloat();
-        dec2 = input.nextFloat();
+        double dec1, dec2;
+        dec1 = input.nextDouble();
+        dec2 = input.nextDouble();
         System.out.println("You entered: " + dec1 + " and " +  dec2);
 
         System.out.print("Enter 2 words: ");
