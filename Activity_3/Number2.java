@@ -17,9 +17,9 @@ public class Number2 {
 
         int newTotal = basket  * takeawayEggs;
 
-        System.out.println("if you have " + eggs + " eggs per basket and " + basket + " baskets, then the total number of eggs is " + totalEggs);
+        System.out.println("if you have " + eggs + " eggs per basket and \n" + basket + " baskets, then\nthe total number of eggs is " + totalEggs);
         System.out.println("Now we take two eggs out of each basket.");
-        System.out.println("Now you have "+ takeawayEggs + " eggs per basket and " + basket + " baskets, then the total number of eggs is " + newTotal);
-        System.out.println("\nThankyou!");
+        System.out.println("Now you have \n"+ takeawayEggs + " eggs per basket and \n" + basket + " baskets, then the total number of eggs is " + newTotal);
+        System.out.println("\nThank you!");
     }
 }
