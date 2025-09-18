@@ -6,15 +6,18 @@ public class Number5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+        double hourlyRate = 15.50;
+        System.out.print("Please enter your hourly pay rate: $");
+        hourlyRate = in.nextDouble();
+
+        double workHours;
         System.out.print( "Please enter the number of hours you worked each week: ");
+        workHours = in.nextDouble();
 
         double weeks = 5;
-        double workHours;
-        workHours = in.nextDouble();
         double totalHours = weeks * workHours;
 
         //Income breakdown
-        double hourlyRate = 15.50;
         double taxes = 0.14;
         double totalIncome = totalHours * hourlyRate;
         double afterTaxesIncome = totalIncome - (totalIncome * taxes);
@@ -34,12 +37,6 @@ public class Number5 {
         System.out.println("Money I spent on school supplies: $" + schoolSupp);
         System.out.println("Money I spent to buy savings bonds:  $" + savinBonds);
         System.out.println("Money parents spent to buy additional savings bonds for me: $" + partnerContributions);
-
-
-
-
-
-
     }
 }
 
