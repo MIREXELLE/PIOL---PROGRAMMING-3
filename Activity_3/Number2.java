@@ -12,9 +12,8 @@ public class Number2 {
 
         int totalEggs = basket * eggs;
         int takeawayEggs = 2;
-
+        //take 2 eggs to each basket
         takeawayEggs = eggs - takeawayEggs;
-
         int newTotal = basket  * takeawayEggs;
 
         System.out.println("if you have " + eggs + " eggs per basket and \n" + basket + " baskets, then\nthe total number of eggs is " + totalEggs);

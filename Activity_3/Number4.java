@@ -1,4 +1,5 @@
 package Activity_3;
+
 import java.util.Scanner;
 public class Number4 {
 

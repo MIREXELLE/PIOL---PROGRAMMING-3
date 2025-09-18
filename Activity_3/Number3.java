@@ -1,6 +1,6 @@
 package Activity_3;
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class Number3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -28,8 +28,5 @@ public class Number3 {
         String sentence;
         sentence = input.nextLine();
         System.out.println("You entered: " + sentence);
-
-
-
     }
 }
