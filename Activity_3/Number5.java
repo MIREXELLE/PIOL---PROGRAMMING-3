@@ -5,7 +5,7 @@ public class Number5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        double hourlyRate = 15.50;
+        double hourlyRate;
         System.out.print("Please enter your hourly pay rate: $");
         hourlyRate = in.nextDouble();
 
