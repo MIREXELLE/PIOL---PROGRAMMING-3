@@ -13,7 +13,7 @@ public class number4 {
             System.out.println("Remarks: Ice");
         } else if (temperature >= 0 && temperature <=  100){
             System.out.println("Remarks: Water");
-        } else if (temperature >= 100){
+        } else if (temperature > 100){
             System.out.println("Remarks Steam");
         }
     }
