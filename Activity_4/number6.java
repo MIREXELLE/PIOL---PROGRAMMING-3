@@ -6,7 +6,7 @@ public class number6 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter a number to know if it's odd or even: ");
+        System.out.print("Enter a number to know if it's odd or even: ");
         int num = in.nextInt();
 
         if (num%2 == 0){
