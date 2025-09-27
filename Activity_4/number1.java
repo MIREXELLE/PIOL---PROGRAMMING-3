@@ -6,7 +6,6 @@ public class number1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-
         System.out.print("Enter number: ");
         int num1 = in.nextInt();
 
@@ -17,6 +16,5 @@ public class number1 {
         } else {
             System.out.println("Invalid number");
         }
-
     }
 }
