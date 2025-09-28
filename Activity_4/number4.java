@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * Program that checks the value of temperature and displays messages based on its value.
  * Temperature ranges and their corresponding remarks:
  * - Less than zero: ICE

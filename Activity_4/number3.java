@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * Program to input a number from 1 to 12 and display the equivalent month of the year.
  * Uses a switch statement to match the month number with its corresponding name.
  */

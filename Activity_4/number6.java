@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * 6. Write a program that will determine if the input number is ODD or EVEN. Display also
  * the word ODD if the number is odd, EVEN if the number is even.
  */

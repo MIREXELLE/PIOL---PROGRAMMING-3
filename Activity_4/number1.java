@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * Program to check if the input number is POSITIVE or NEGATIVE.
  * Consider 0 as a positive number.
  * Displays the word POSITIVE or NEGATIVE based on the input.

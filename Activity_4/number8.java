@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * 8. Create a program that displays the total amount of money a company owes for a
  * seminar. The seminar per person is based on the number of people the company
  * registers. For example, if the company registers seven people, then the total amount

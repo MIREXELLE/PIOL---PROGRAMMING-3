@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * Program to check if a number is divisible by 5.
  * Outputs "DIVISIBLE" if the number is divisible by 5,
  * otherwise outputs "NOT DIVISIBLE".

@@ -2,7 +2,7 @@ package Activity_4;
 
 import java.util.Scanner;
 
-/**
+/*
  * 5. Write a program that will ask the user to input a character "m" or "f" and then it will
  * display "HELLO SIR", if the input is "m", otherwise "HELLO MADAM"
  */
