@@ -1,45 +1,71 @@
 package Activity_4;
 
+/*
+10. Write a program that will convert and display the Letter grade to its equivalent message.
+    Assign an appropriate error message if the input letter is not from A to F.
+    Letter grade    Message
+    A               EXCELLENT
+    B               ABOVE AVERAGE
+    C               AVERAGE
+    D               BELOW AVERAGE
+    F               FAILED
+*/
+
 import java.util.Scanner;
 
 public class number10 {
     public static void main(String[] args) {
+        // Create Scanner object to read user input
         Scanner in = new Scanner(System.in);
 
-        // Prompt the user to enter a letter grade
-        System.out.print("Enter letter grade: ");
-        String grade = in.next();
+        // Prompt user to enter a letter grade
+        System.out.print("Enter your letter grade (A-F): ");
+        String grade = in.next().toUpperCase(); // Convert input to uppercase for case insensitivity
 
-        // Output the corresponding message based on the grade using if-else statements
-        System.out.println("Message: ");
-        if (grade.equals("A")){
-            System.out.println("EXCELLENT");
-        } else if (grade.equals("B")){
-            System.out.println("ABOVE AVERAGE");
-        } else if (grade.equals("C")){
-            System.out.println("AVERAGE");
-        } else if (grade.equals("D")){
-            System.out.println("BELOW AVERAGE");
-        } else if (grade.equals("F")){
-            System.out.println("FAILED");
-        } else {
-            System.out.println("INVALID GRADE");
+        // Variable to store the equivalent message
+        String message;
+
+        // Using switch statement to determine the equivalent message for the letter grade
+        switch (grade) {
+            case "A":
+                message = "EXCELLENT";
+                break;
+            case "B":
+                message = "ABOVE AVERAGE";
+                break;
+            case "C":
+                message = "AVERAGE";
+                break;
+            case "D":
+                message = "BELOW AVERAGE";
+                break;
+            case "F":
+                message = "FAILED";
+                break;
+            default:
+                message = "INVALID GRADE - Please enter a letter from A to F";
+                break;
         }
 
-        /*
-         * The following switch statement is a suggestion only.
-         * It uses Java's enhanced switch syntax
-         * to make the code more concise and readable compared to multiple if-else statements.
-         * You can use this instead of the if-else block above for better maintainability.
-         *
-         * switch (grade) {
-         *     case "A" -> System.out.println("EXCELLENT");
-         *     case "B" -> System.out.println("ABOVE AVERAGE");
-         *     case "C" -> System.out.println("AVERAGE");
-         *     case "D" -> System.out.println("BELOW AVERAGE");
-         *     case "F" -> System.out.println("FAILED");
-         *     default -> System.out.println("INVALID GRADE");
-         * }
-         */
+        // Display the equivalent message
+        System.out.println("Grade " + grade + ": " + message);
+
+        // Close the scanner
+        in.close();
     }
 }
+
+/* Alternative implementation using enhanced switch (Java 14+):
+ *
+ * String message = switch (grade) {
+ *     case "A" -> "EXCELLENT";
+ *     case "B" -> "ABOVE AVERAGE";
+ *     case "C" -> "AVERAGE";
+ *     case "D" -> "BELOW AVERAGE";
+ *     case "F" -> "FAILED";
+ *     default -> "INVALID GRADE - Please enter a letter from A to F";
+ * };
+ *
+ * This enhanced switch syntax is more concise and doesn't require the break statements,
+ * making the code cleaner and less prone to errors caused by missing break statements.
+ */
