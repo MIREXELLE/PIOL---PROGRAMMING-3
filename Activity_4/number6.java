@@ -22,5 +22,6 @@ public class number6 {
         } else {
             System.out.println(num + " is a ODD number");
         }
+        in.close();
     }
 }

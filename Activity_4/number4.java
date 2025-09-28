@@ -26,5 +26,6 @@ public class number4 {
         } else if (temperature > 100){
             System.out.println("Remarks Steam");
         }
+        temp.close();
     }
 }

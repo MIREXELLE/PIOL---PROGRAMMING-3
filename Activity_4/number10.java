@@ -55,7 +55,7 @@ public class number10 {
     }
 }
 
-/* Alternative implementation using enhanced switch (Java 14+):
+/* Alternative implementation using enhanced switch:
  *
  * String message = switch (grade) {
  *     case "A" -> "EXCELLENT";

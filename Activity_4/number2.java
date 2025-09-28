@@ -23,5 +23,6 @@ public class number2 {
         } else {
             System.out.println(num1 + " is not divisible by 5");
         }
+        in.close();
     }
 }

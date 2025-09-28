@@ -16,7 +16,7 @@ public class number3 {
         int month = in.nextInt();
 
         // Display the equivalent month name using switch statement
-        System.out.print("\n" + month + " is equivalent to ");
+        System.out.print("\n" + month + " is equivalent to: ");
         switch(month){
             case 1:
                 System.out.print("January");
@@ -57,5 +57,6 @@ public class number3 {
             default:
                 System.out.print("Invalid month number");
         }
+        in.close();
     }
 }

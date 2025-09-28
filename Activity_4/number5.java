@@ -24,5 +24,6 @@ public class number5 {
         } else {
             System.out.println("f or m only.");
         }
+        in.close();
     }
 }

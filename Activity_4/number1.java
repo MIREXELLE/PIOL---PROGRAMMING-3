@@ -22,5 +22,6 @@ public class number1 {
         } else {
             System.out.println("NEGATIVE");
         }
+        in.close();
     }
 }

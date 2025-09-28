@@ -45,5 +45,6 @@ public class number8 {
             // Display error for invalid input (0 or negative)
             System.out.println("Number of person cannot be negative or zero.");
         }
+        in.close();
     }
 }

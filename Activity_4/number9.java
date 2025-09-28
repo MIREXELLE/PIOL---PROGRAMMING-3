@@ -36,10 +36,14 @@ public class number9 {
             case 5, 7, 11: // 5, 7, 11 have the same values, same as ID 2 and 9.  in this way the code is shorter and cleaner.
                 price = 11.46;
                 break;
+            default:
+                price = 0.00;
+                System.out.println("INVALID PRODUCT ID");
+                break;
         }
 
         // Display the product price
-        System.out.println("Product Price: " + price);
+        System.out.println("Product Price: ₱" + price);
 
         // Close the scanner
         in.close();
