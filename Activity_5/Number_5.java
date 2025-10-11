@@ -42,7 +42,7 @@ public class Number_5 {
         System.out.println("Sum of even integers: " + sumEven);
         System.out.println("Sum of odd integers: " + sumOdd);
 
-        // Close the scanner to prevent resource leaks
+        // Close the scanner
         scanner.close();
     }
 }
