@@ -39,7 +39,7 @@ public class Number_7 {
         // Display termination message
         System.out.println("Program terminated.");
 
-        // Close the scanner to prevent resource leaks
+        // Close the scanner
         scanner.close();
     }
 }
