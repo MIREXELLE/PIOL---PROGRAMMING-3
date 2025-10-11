@@ -44,7 +44,7 @@ public class Number_6 {
             System.out.println(num + " is not a prime number.");
         }
 
-        // Close the scanner to prevent resource leaks
+        // Close the scanner
         scanner.close();
     }
 }
